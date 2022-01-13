@@ -1,0 +1,154 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #2b1904;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 3px;
+    background-color: #c7d6cb;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    color:chocolate;
+    letter-spacing: 8px;
+    
+}
+
+li{
+    list-style: none;
+    text-align:center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(127, 129, 21);
+}
+
+.table {
+    width: 100%;
+    border: 2px solid #2b1904;
+    border-collapse: collapse;
+}
+
+.table th{
+    text-align: left;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.table td{
+    border: 1px solid #2b1904;
+    padding: 10px;
+}
+
+.text-red {
+    color: blue;
+    font-size: 20px;
+}
+
+.content {
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.headline {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.copy {
+    text-align: right;
+    margin-right: 50px;
+}
+.imghead {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.nav {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: chocolate;
+}
+
+/* TFP Page */
+.img-headtfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    width: 20%;
+}
+
+/* Form */
+.form {
+    border:#f5a75e 3px solid;
+    width: 900px;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin:auto;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    
+    
+}
+
+.btn {
+    background-color: #ff7f50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin-top: 50px ;
+}
+
+.btn:hover{
+    
+    background-color: rgb(247, 207, 169);
+    cursor: pointer;
+
+}
+
+/* Square */
+
+.square {
+    width: 50px;
+    height: 50px;
+
+    background-color: #ff7f50;
+    bottom: 20px;
+
+    position: absolute;
+    
+}
+
+/* Modal */
+
+.modal {
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: rgba(153, 132, 173, 0.918);
+    position: relative;
+    padding: 15px;
+    margin: 0;
+}
